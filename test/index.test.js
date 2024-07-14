@@ -14,5 +14,3 @@ describe('Trains API', function() {
     request(app).get('/trains').expect(200).expect('Content-Length', '1093').expect('Content-Type', /json/, done); ;    
   })
 })
-
-i am adding these changes after deploying the ci on jenkins using gradle lets see if it works
